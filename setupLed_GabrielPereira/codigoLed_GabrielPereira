@@ -1,0 +1,32 @@
+// Definindo os nomes dos pinos para facilitar a leitura
+const int ledVerde = 10; 
+const int ledVermelho = 11;
+const int ledAmarelo = 12;
+
+void setup() {
+  // Configura os pinos como SAÍDA
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledVermelho, OUTPUT);
+  pinMode(ledAmarelo, OUTPUT);
+}
+
+void loop() {
+
+  // Acende o LED verde
+  digitalWrite(ledVerde, HIGH);
+  digitalWrite(ledVermelho, LOW);
+  digitalWrite(ledAmarelo, LOW);
+  delay(500);
+
+  // Acende o LED vermelho
+  digitalWrite(ledVerde, LOW);
+  digitalWrite(ledVermelho, HIGH);
+  digitalWrite(ledAmarelo, LOW);
+  delay(500);
+
+  // Acende o LED amarelo
+  digitalWrite(ledVerde, LOW);
+  digitalWrite(ledVermelho, LOW);
+  digitalWrite(ledAmarelo, HIGH);
+  delay(500);
+}
