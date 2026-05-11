@@ -1,4 +1,4 @@
-# 💡 Desenvolvimento de Sistemas: Atividade Arduino no Tinkercad 🔌
+# 💡 Desenvolvimento de Sistemas e Lógica de Programação: Atividade Arduino no Tinkercad 🔌
 
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 
