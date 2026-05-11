@@ -1,0 +1,115 @@
+// C++
+
+int portLed = 10;
+int portLed2 = 11;
+int portLed3 = 6;
+int portLed4 = 5;
+
+void setup() {
+  // Iniciar os pins como saídas 
+  pinMode(portLed, OUTPUT);
+  pinMode(portLed2, OUTPUT);
+  pinMode(portLed3, OUTPUT);
+  pinMode(portLed4, OUTPUT);
+}
+
+void loop() 
+{
+  //Criação de ritmo com as luzes ✴
+  // Acender o LED azul com mais duração 
+  digitalWrite(portLed, HIGH);
+  delay(1500);
+  digitalWrite(portLed, LOW);
+  delay(1500);
+
+  // Piscar o LED azul 
+  digitalWrite(portLed, HIGH);
+  delay(200);
+  digitalWrite(portLed, LOW);
+  delay(200);
+  
+  // Piscar o LED vermelho
+  digitalWrite(portLed2, HIGH);
+  delay(200);
+  digitalWrite(portLed2, LOW);
+  delay(200);
+  
+  // Piscar o LED branco
+  digitalWrite(portLed3, HIGH);
+  delay(200);
+  digitalWrite(portLed3, LOW);
+  delay(200);
+  
+  // Acender o LED laranja com mais duração
+  digitalWrite(portLed4, HIGH);
+  delay(1500);
+  digitalWrite(portLed4, LOW);
+  delay(1500);
+  
+  // Piscar o LED laranja
+  digitalWrite(portLed4, HIGH);
+  delay(200);
+  digitalWrite(portLed4, LOW);
+  delay(200);
+  
+  // Piscar o LED azul 
+  digitalWrite(portLed, HIGH);
+  delay(200);
+  digitalWrite(portLed, LOW);
+  delay(200);
+  
+  // Piscar o LED vermelho
+  digitalWrite(portLed2, HIGH);
+  delay(200);
+  digitalWrite(portLed2, LOW);
+  delay(200);
+  
+  // Acender o LED branco com mais duração
+  digitalWrite(portLed3, HIGH);
+  delay(1500);
+  digitalWrite(portLed3, LOW);
+  delay(1500);
+  
+  // Piscar o LED branco
+  digitalWrite(portLed3, HIGH);
+  delay(200);
+  digitalWrite(portLed3, LOW);
+  delay(200);
+  
+  // Piscar o LED laranja
+  digitalWrite(portLed4, HIGH);
+  delay(200);
+  digitalWrite(portLed4, LOW);
+  delay(200);
+  
+  // Piscar o LED azul 
+  digitalWrite(portLed, HIGH);
+  delay(200);
+  digitalWrite(portLed, LOW);
+  delay(200);
+  
+  // Acender o LED vermelho com mais duração
+  digitalWrite(portLed2, HIGH);
+  delay(1500);
+  digitalWrite(portLed2, LOW);
+  delay(1500);
+  
+  // Piscar o LED vermelho
+  digitalWrite(portLed2, HIGH);
+  delay(200);
+  digitalWrite(portLed2, LOW);
+  delay(200);
+  
+   // Piscar o LED branco
+  digitalWrite(portLed3, HIGH);
+  delay(200);
+  digitalWrite(portLed3, LOW);
+  delay(200);
+  
+  // Piscar o LED laranja
+  digitalWrite(portLed4, HIGH);
+  delay(200);
+  digitalWrite(portLed4, LOW);
+  delay(200);
+}
+
