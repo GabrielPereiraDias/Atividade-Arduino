@@ -28,5 +28,5 @@ void loop() {
   digitalWrite(ledVerde, LOW);
   digitalWrite(ledVermelho, LOW);
   digitalWrite(ledAmarelo, HIGH);
-  delay(500);
+  delay(501);
 }
