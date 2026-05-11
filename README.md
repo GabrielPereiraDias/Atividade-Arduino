@@ -43,7 +43,7 @@ O objetivo da atividade foi praticar conceitos básicos de eletrônica e program
 
 #### Projeto desenvolvido no SENAI A. Jacob Lafer.
 
-<p align="center">
-  <img src="https://media1.tenor.com/m/hz5_8uJK_MwAAAAC/scott-pilgrim-scott-pilgrim-vs-the-world.gif" width="200" height="auto" />
+<p align="">
+  <img src="https://media1.tenor.com/m/BY7flZqxkLUAAAAC/scott-pilgrim-scott-pilgrim-vs-the-world.gif" width="200" height="auto" />
 </p>
 </p>
